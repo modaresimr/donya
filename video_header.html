@@ -1,0 +1,517 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>قالب فارسی Avensis | میهن وبمستر</title>
+	
+	<meta name="author" content="B.Petkov">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<link href='bootstrap/css/bootstrap.css' rel='stylesheet' type='text/css'>
+	<link href='bootstrap/css/bootstrap-rtl.css' rel='stylesheet' type='text/css'>
+	<link href='css/font-awesome.css' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <link href='css/scroll.css' rel='stylesheet' type='text/css'>
+  <link href='css/scroll-rtl.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href='css/main.css' rel='stylesheet' type='text/css'>
+  <link href='css/main-rtl.css' rel='stylesheet' type='text/css'>
+   <link href='css/common.css' rel='stylesheet' type='text/css'>
+   <link href='css/common-rtl.css' rel='stylesheet' type='text/css'>
+  <link href='css/anim.css' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  
+  	<script type="text/javascript" src="js/video_header.js"></script>
+	<link href="css/video_header.css" media="all" rel="stylesheet" type="text/css">
+
+  
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+		});
+		
+	</script>
+	    <script>
+
+		jQuery(function(){
+            if (self.location.href == top.location.href){
+                var logo=$("<a href='' style='position:absolute;top:0;z-index:1000'></a>");
+                $("#wrapper").prepend(logo);
+                $("#logo").fadeIn();
+            }
+
+            jQuery(".player").mb_YTPlayer();
+		});
+
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+  
+  <!-- BEGIN NAVIGATION -->
+  <div class="sticky-wrapper">
+  <nav class="my-sticky-nav">
+	<div id="logo">
+		<a>
+			<img alt="logo" src="data/logo_small.png">
+		</a>
+	</div>
+	<ul id="nav">
+		<li class="menu-item"><a class="active" data-index="1" href="#1">خانه</a></li>
+		<li class="menu-item"><a title="Portfolio" data-index="2" href="#2">پروژه های ما</a></li>
+		<li class="menu-item"><a title="aboutus" data-index="3" href="#3">درباره ما</a></li>
+		<li class="menu-item"><a title="About" data-index="4" href="#4">تیم ما</a></li>
+		<li class="menu-item"><a data-index="5" href="#5">تماس با ما</a></li>
+	</ul>
+  </nav>
+  </div>
+  
+    <!-- BEGIN PAGE HOLDER -->
+  
+  <div class="main">
+	  	  
+	  
+ 	<!-- BEGIN PAGE 1 -->
+	
+      <section class="page1 video">
+
+        <div class="page_container anim">
+           <h1>متفاوت فکر کنید</h1>
+          <h2>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. .</h2>
+			<a id="P2" class="player" data-property="{videoURL:'jgqt2NjvtTw',containment:'body',autoPlay:true, showControls:false, mute:true, startAt:0, opacity:1}">My video</a> 
+			<a id="bgndVideo" class="player mb_YTVPlayer" data-property="{videoURL:'http://www.youtube.com/watch?v=jgqt2NjvtTw',containment:'body',autoPlay:true, mute:true, startAt:40, stopAt:22, opacity:1}" style="display: none; background-image: none; background-position: initial initial; background-repeat: initial initial;" title="Lexus IS">youtube</a>		  		
+          <div class="btns">
+  	        <a class="btn btn-default btn-outline btn-lg" data-index="2" href="#2">پروژه های ما</a>
+  	      </div>
+		<div class="social_module">
+			<ul>
+				<li><a href="#link"><i class="icon icon_footer">F</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">L</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">E</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">D</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">I</i></a></li>
+			</ul>
+		</div>
+
+
+  	    </div>
+      </section>
+  
+	 	<!-- BEGIN PAGE 2 -->   
+	  
+	    <section class="page2">
+
+	   <div class="page_container anim-none">
+	            <h1>پروژه های ما</h1>
+          <h2>می خواهید نمونه کارهای ما را ببینید؟ مشکلی نیست. با ما تماس بگیرید.</h2>
+		  <hr class="half-rule">
+		   <div id="portfolio" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators dark-indicators">
+    <li data-target="#portfolio" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio" data-slide-to="1"></li>
+	<li data-target="#portfolio" data-slide-to="2"></li>
+  </ol>
+        <div  class="carousel-inner portfolio">
+          <div class="item slide slide1 active">
+            <div class="content">
+              <h2>الهام بخش <span class="new">جدید</span></h2>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+			  <a class="btn MT_20  btn-default btn-outline" href="#yourlinkhere">لینک خروجی</a>
+            </div>
+            <div class="image">
+              <a href="#" target="_blank">
+                <img src="data/slide1.png" alt="Slider 1">
+              </a>
+            </div>
+          </div>
+          <div class="item slide slide2" >
+            <div class="image">
+             <a href="#" target="_blank"> <img src="data/slide2.png" alt="Slider 1"></a>
+            </div>
+			 <div class="content">
+              <h2>ایده برای زندگی <span class="new">جدید</span> </h2>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+			  <a class="btn MT_20  btn-default btn-outline" href="#yourlinkhere">لینک خروجی</a>
+            </div>
+          </div>
+          <div class="item slide slide3">
+            <div class="content">
+              <h2>قالبی برای همیشه</h2>
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+			  <a class="btn MT_20  btn-default btn-outline" href="#yourlinkhere">لینک خروجی</a>
+            </div>
+            <div class="image">
+             <a href="#" target="_blank"><img src="data/slide3.png" alt="Slider 1"></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+	  </div>
+	   </section>
+	   
+	   
+	<!-- BEGIN PAGE 3 -->   	  
+	  
+	  <section class="page3">
+	      <div class="page_container anim-none">
+          <h1>درباره ما</h1>
+          <h2>ما برای موفقیت شما تلاش می کنیم.</h2>
+		  		  <hr class="half-rule">
+ <div id="carousel-fade" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-fade" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-fade" data-slide-to="1"></li>
+	<li data-target="#carousel-fade" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slide1 active">
+		<div class="column-section clearfix">
+						<div class="column one-third align-center slide1-part1">
+						<i class="fa fa-eye fa-4x white"></i>
+							<h4><strong>دیدگاه ما</strong></h4>
+							<p>
+							تابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان.
+						</p>
+					  </div>
+					  <div class="column one-third align-center slide1-part2" >
+						<i class="fa fa-rocket fa-4x white"></i>
+							<h4><strong>هدف ما</strong></h4>
+							<p>
+							تابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان.
+						</p>
+					  </div>
+					  <div class="column one-third last-col align-center slide1-part3">
+						<i class="fa fa-cogs fa-4x white"></i>
+							<h4><strong>استراتژی ما</strong></h4>
+							<p>
+							تابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیستری را برای طراحان.
+						</p>
+					  </div>
+		</div>
+	</div>
+
+	
+    <div class="item slide2">
+				<div class="column-section clearfix slide2-part1">
+                	<div class="column one-third iconbox clearfix">
+                  	<i class="fa fa-laptop fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>واکنش گرا</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+                  <div class="column one-third iconbox clearfix">
+                  	<i class="fa fa-pencil fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>طراحی مدرن</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+                  <div class="column one-third last-col iconbox clearfix">
+                  	<i class="fa fa-flag fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>آیکون های زیبا</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+            	</div>
+				
+				<div class="column-section clearfix slide2-part2">
+                	<div class="column one-third iconbox clearfix">
+                  	<i class="fa fa-plane fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>نمونه کار ای جکس</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+                  <div class="column one-third iconbox clearfix">
+                  	<i class="fa fa-tint fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>تنظیمات رنگ</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+                  <div class="column one-third last-col iconbox clearfix">
+                  	<i class="fa fa-headphones fa-2x fa-fw"></i>
+                    	<div class="iconbox-content">
+                      	<h5><strong>پشتیبانی صوتی</strong></h5>
+                         <p>
+                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. 
+                        	</p>
+                    	</div>
+                  </div>
+            	</div>				
+	</div>	
+	
+	   <div class="item slide3">
+			<div class="column-section clearfix align-center">
+				<div class="column one-fourth slide3-part1">
+					<i class="fa fa-check-square-o fa-3x fw"></i>
+					<div class="counter">
+						<div class="counter-value">237</div>
+						<h6 class="counter-name"><strong>پروژه تکمیل شده</strong></h6>
+					</div>
+				</div>
+				<div class="column one-fourth slide3-part2">
+				<i class="fa fa-coffee fa-3x fw"></i>
+					<div class="counter">
+						<div class="counter-value">21589</div>
+						<h6 class="counter-name"><strong>قهوه خورده شده</strong></h6>
+				</div>
+			  </div>
+			  <div class="column one-fourth slide3-part1">
+				<i class="fa fa-thumbs-o-up fa-3x fw"></i>
+				<div class="counter">
+						<div class="counter-value">118</div>
+						<h6 class="counter-name"><strong>مشتری راضی</strong></h6>
+				</div>
+			  </div>
+			  <div class="column one-fourth last-col slide3-part2">
+				<i class="fa fa-cutlery fa-3x fw"></i>
+				<div class="counter">
+						<div class="counter-value">667</div>
+						<h6 class="counter-name"><strong>سفارش پیتزا</strong></h6>
+					</div>
+			  </div>
+			</div>
+	   </div>
+	
+	
+	
+  	    </div>
+	</div>
+</div>
+      </section>  
+	   
+	   
+	<!-- BEGIN PAGE 4 -->  	   
+	   
+<section class="page4">
+	<div class="page_container anim">
+		<h1>تیم ما</h1>
+		<h2>ما کاری که می کنیم دوست داریم</h2>
+
+	<hr class="half-rule">
+
+		  
+	<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="item active">
+			  <ul class="ch-grid portraits">
+				<li>	
+				<div class="ch-item" style="background-image:url('data/about-us-avatar-1.jpg');">
+						<div class="ch-info">
+							<p>	<a href="#yourlinkhere"><i class="icon">F</i></a>
+								<a href="#yourlinkhere"><i class="icon">L</i></a>
+								<a href="#yourlinkhere"><i class="icon">I</i></a>
+							</p>
+						</div>
+				</div>
+						<span class="name">نایک کریس</span><br>
+						<span class="poste">مدیر/بنیان گذار</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+				<li>	
+				<div class="ch-item" style="background-image: url('data/about-us-avatar-2.jpg');">
+					<div class="ch-info">
+							<p>	
+							<a href="#yourlinkhere"><i class="icon">F</i></a>
+							<a href="#yourlinkhere"><i class="icon">L</i></a>
+							<a href="#yourlinkhere"><i class="icon">I</i></a>
+							</p>
+					</div>
+				</div>
+						<span class="name">جان مرگان</span><br>
+						<span class="poste">مدیر/بنیان گذار</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+				<li>	
+				<div class="ch-item" style="background-image: url('data/about-us-avatar-3.jpg');">
+					<div class="ch-info">
+						<p>						
+						<a href="#yourlinkhere"><i class="icon">F</i></a>
+						<a href="#yourlinkhere"><i class="icon">L</i></a>
+						<a href="#yourlinkhere"><i class="icon">I</i></a>
+						</p>
+					</div>
+				</div>
+						<span class="name">جین اسمیت</span><br>
+						<span class="poste">مدیر اجرایی</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+				<li>	
+				<div class="ch-item" style="background-image: url('data/about-us-avatar-4.jpg');">
+					<div class="ch-info">
+						<p>						
+						<a href="#yourlinkhere"><i class="icon">F</i></a>
+						<a href="#yourlinkhere"><i class="icon">L</i></a>
+						<a href="#yourlinkhere"><i class="icon">I</i></a>
+						</p>
+					</div>
+				</div>
+						<span class="name">باربارا</span><br>
+						<span class="poste">مدیر فروش</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+			</ul>
+		</div>
+		
+		<div class="item">
+			<ul class="ch-grid portraits">
+
+				<li>	
+				<div class="ch-item" style="background-image: url('data/about-us-avatar-5.jpg');">
+					<div class="ch-info">
+						<p>						
+						<a href="#yourlinkhere"><i class="icon">F</i></a>
+						<a href="#yourlinkhere"><i class="icon">L</i></a>
+						<a href="#yourlinkhere"><i class="icon">I</i></a>
+						</p>
+					</div>
+				</div>
+						<span class="name">جسیکا راید</span><br>
+						<span class="poste">مشاور</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+				<li>	
+				<div class="ch-item" style="background-image: url('data/about-us-avatar-6.jpg');">
+						<div class="ch-info">
+							<p>					
+							<a href="#yourlinkhere"><i class="icon">F</i></a>
+							<a href="#yourlinkhere"><i class="icon">L</i></a>
+							<a href="#yourlinkhere"><i class="icon">I</i></a>
+							</p>
+						</div>
+				</div>
+						<span class="name">سامانتا جان</span><br>
+						<span class="poste">مشاور</span><br>
+						<span class="whathedo">
+						<a href="#yourlinkhere"><i class="icon_mobile">F</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">L</i></a>
+						<a href="#yourlinkhere"><i class="icon_mobile">I</i></a>
+						</span>
+				</li>
+				
+			</ul>
+		</div>
+			
+	</div>
+	</div>
+	</div>
+</section>	   
+  
+	   
+	<!-- BEGIN PAGE 5 -->  		   
+  
+	<section class="page5 contact" id="contact">
+	<div class="page_container">
+		  <div class="top-image anim2">
+            <img alt="Contacts" src="data/contact.jpg">
+          </div>
+          <h1>تماس با ما</h1>
+          <h2>هر سوالی دارید بپرسید. ما برای مشاوره رایگان در خدمت شما هستیم.</h2>
+		  <hr class="half-rule">
+		  <div class="row">
+			<div class="col2">
+			<h4>آدرس ما</h4>
+			<p>5000 پاریس</p>
+			<p>شانزلیزه, 67</p>
+			<p>فرانسه </p>
+
+			<h4>دپارتمان فروش</h4>
+			<p>تلفن: 55 444 777</p>
+			<p><a href="#">seles@sitename.com</a></p>
+
+			<h4>دپارتمان پشتیبانی</h4>
+			<p>تلفن: 55 888 666</p>
+			<p><a href="#">support@sitename.com</a></p>													
+			</div>		
+			<div class="col1 ">
+				<form name="htmlform" method="post" class="peThemeContactForm">
+					<div class="control-group">
+						<label>نام<span class="required">*</span></label>
+						<input type="text" name="author" class="required" placeholder="نام شما" required="" data-fieldid="0">
+					</div>
+					<div class="control-group">
+						<label>ایمیل<span class="required">*</span></label>
+						<input type="email" name="email" class="required" placeholder="ایمیل شما" data-validation="email" required="" data-fieldid="1">
+					</div>
+					<div class="control-group">
+						<label>پیام<span class="required">*</span></label>
+						<textarea name="message" cols="1" rows="5" class="required" placeholder="پیام شما" required="" data-fieldid="2"></textarea>
+					</div>
+					<button name="send" type="submit" dir="ltr" lang="en" class="submit">ارسال</button>
+				</form>
+				
+				<!--alert success-->
+				<div id="contactFormSent" class="formSent alert alert-success fade in" style="display: none;">
+					<strong>یوهو!</strong> پیام فرستاده شد.				</div>
+			
+				<!--alert error-->
+				<div id="contactFormError" class="formError alert alert-error fade in" style="display: none;">
+					<strong>خطا!</strong> فیلدهای علامت گذاری شده را ببینید.				</div>
+			</div>
+		</div>
+
+  	</div>
+	</section>  
+
+    </div>
+   
+  </div>
+  
+</body>
+</html>
+</html>

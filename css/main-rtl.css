@@ -1,0 +1,124 @@
+.main {
+	float: right;
+}
+
+.main h1 {
+	float: right;
+}
+
+/* ------------------- NAVIGATION -------------------   */
+
+#logo {
+	float: right;
+	margin-right: 0px;
+	padding: 10px 0 10px 15px;
+	margin-left: auto;
+}
+
+nav ul {
+	float: left;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+/* ---------------------------------------------   */
+
+/* ------------------- page 1 -------------------   */
+
+.social_module ul {
+	padding-right:0px;
+	padding-left: 0;
+}
+
+/* ---------------------------------------------   */
+/* ------------------- page 2 -------------------   */
+
+.slider {
+	float: right;
+}
+
+.portfolio .slide .content p {
+	float: right;
+}
+
+.portfolio .slide .image {
+	padding-right: 10px;
+	padding: 0 10px 0 0;
+	padding-left: 0;
+}
+
+.portfolio .slide .content {
+	padding-left: 30px;
+	text-align: right;
+	padding-right: 0;
+}
+
+.portfolio .slide .content h2 {
+	text-align: right;
+}
+
+.main section.page2 .new {
+	margin-right:10px;
+	margin-left: auto;
+}
+
+.portfolio .slide2 .image {
+	padding-right: 0px;
+	padding-left:10px;
+}
+
+.portfolio .slide2 .content {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+/* ---------------------------------------------   */
+/* ----------------------------- page 3 ---------------------------   */
+
+.carousel.carousel-fade .active.right,
+.carousel.carousel-fade .active.left {
+	right: 0;
+	left: auto;
+}
+
+.carousel.carousel-fade .next,
+.carousel.carousel-fade .prev {
+	right: 0;
+	left: auto;
+}
+
+.column {
+	float: right;
+}
+
+.iconbox-content {
+	float: left;
+	text-align:right;
+}
+
+/* ---------------------------------------------   */
+/* ---------------------------------------------------------- page 4 ----------------------------------------------------------   */
+
+/* .portraits li img:hover */
+
+/* --------------------------------------------------------------------------------------------------------------------   */
+/* ------------------------------------------------------------- page 5 -------------------------------------------------------------   */
+
+section.contact .row .col1 {
+	text-align:right;
+}
+
+section.contact .row .float {
+	float:right;
+}
+
+section.contact .page_container .col2 {
+	text-align:right;
+}
+
+@media screen  
+and (max-height : 699px) {
+
+}
+
+

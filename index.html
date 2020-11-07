@@ -1,0 +1,249 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	
+	<meta name="author" content="B.Petkov">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico:400' rel='stylesheet' type='text/css'>
+	<link href='bootstrap/css/bootstrap.css' rel='stylesheet' type='text/css'>
+	<link href='bootstrap/css/bootstrap-rtl.css' rel='stylesheet' type='text/css'>
+	<link href='css/font-awesome.css' rel='stylesheet' type='text/css'>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="js/scroll.js"></script>
+  <link href='css/scroll.css' rel='stylesheet' type='text/css'>
+  <link href='css/scroll-rtl.css' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <link href='css/main.css' rel='stylesheet' type='text/css'>
+  <link href='css/main-rtl.css' rel='stylesheet' type='text/css'>
+   <link href='css/common.css' rel='stylesheet' type='text/css'>
+   <link href='css/common-rtl.css' rel='stylesheet' type='text/css'>
+  <link href='css/anim.css' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+  
+  	<script type="text/javascript" src="js/video_header.js"></script>
+	<link href="css/video_header.css" media="all" rel="stylesheet" type="text/css">
+
+  
+	<script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600
+      });
+		});
+		
+	</script>
+	    <script>
+
+		jQuery(function(){
+            if (self.location.href == top.location.href){
+                var logo=$("<a href='' style='position:absolute;top:0;z-index:1000'></a>");
+                $("#wrapper").prepend(logo);
+                $("#logo").fadeIn();
+            }
+
+            jQuery(".player").mb_YTPlayer();
+		});
+
+	</script>
+</head>
+<body>
+  <div class="wrapper">
+  
+  <!-- BEGIN NAVIGATION -->
+  <div class="sticky-wrapper">
+  <nav class="my-sticky-nav">
+	<div id="logo">
+		<a>
+			<img alt="logo" src="images/logo.png">
+		</a>
+	</div>
+	<ul id="nav">
+		<li class="menu-item"><a class="active" data-index="1" href="#1">خانه</a></li>
+		<li class="menu-item"><a title="Portfolio" data-index="2" href="#2">پروژه های ما</a></li>
+		<li class="menu-item"><a title="aboutus" data-index="3" href="#3">درباره ما</a></li>
+		
+		<li class="menu-item"><a data-index="5" href="#5">تماس با ما</a></li>
+	</ul>
+  </nav>
+  </div>
+  
+    <!-- BEGIN PAGE HOLDER -->
+  
+  <div class="main">
+	  	  
+	  
+ 	<!-- BEGIN PAGE 1 -->
+	
+      <section class="page1 no_video">
+
+        <div class="page_container anim">
+          <h1>دنیای پویای نوآوری (پارمیک)</h1>
+          <h2>متفاوت باشید</h2>
+		  		
+          <div class="btns">
+  	        <a class="btn btn-default btn-outline btn-lg" data-index="2" href="#2">پروژه های ما</a>
+  	      </div>
+		<div class="social_module">
+			<ul>
+				<li><a href="#link"><i class="icon icon_footer">F</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">L</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">E</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">D</i></a></li>
+				<li><a href="#link"><i class="icon icon_footer">I</i></a></li>
+			</ul>
+		</div>
+
+
+  	    </div>
+      </section>
+  
+	 	<!-- BEGIN PAGE 2 -->   
+	  
+	   <section class="page2">
+
+	   <div class="page_container anim-none">
+	            <h1>پروژه های ما</h1>
+          <h2>می خواهید نمونه کارهای ما را ببینید؟ مشکلی نیست. با ما تماس بگیرید.</h2>
+		  <hr class="half-rule">
+		   <div id="portfolio" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators dark-indicators">
+    <li data-target="#portfolio" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio" data-slide-to="1"></li>
+	<li data-target="#portfolio" data-slide-to="2"></li>
+  </ol>
+        <div  class="carousel-inner portfolio">
+          <div class="item slide slide1 active">
+            <div class="content">
+              <h2>پروژه های ما </h2>
+              <p>
+				ارائه اینترنت و پهنای باند، مای تلگرام، ویپ، شبکه و...
+			  </p>
+			  
+            </div>
+            <div class="image">
+              <a href="#" target="_blank">
+                <img src="images/all.png" alt="Slider 1">
+              </a>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+	  </div>
+	   </section>
+	   
+	   
+	<!-- BEGIN PAGE 3 -->   	  
+	  
+	  <section class="page3">
+	      <div class="page_container anim-none">
+          <h1>درباره ما</h1>
+          <h2>ما برای موفقیت شما تلاش می کنیم.</h2>
+		  		  <hr class="half-rule">
+ <div id="carousel-fade" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-fade" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-fade" data-slide-to="1"></li>
+	<li data-target="#carousel-fade" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slide1 active">
+		<div class="column-section clearfix">
+						<div class="column one-third align-center slide1-part1">
+						<i class="fa fa-eye fa-4x white"></i>
+							<h4><strong>شرکت دنیای پویای نوآوری</strong></h4>
+							<p>
+							شرکت دنیای پویای نوآوری با نام اختصاری پارمیک در خدمت شماست.
+						</p>
+					  </div>
+					  <div class="column one-third align-center slide1-part2" >
+						<i class="fa fa-rocket fa-4x white"></i>
+							<h4><strong>هدف ما</strong></h4>
+							<p>
+							ایده های فن آورانه برای دنیای جدید ما
+						</p>
+					  </div>
+					  <div class="column one-third last-col align-center slide1-part3">
+						<i class="fa fa-cogs fa-4x white"></i>
+							<h4><strong>استراتژی ما</strong></h4>
+							<p>
+							آرامش، نظم و خلاقیت
+						</p>
+					  </div>
+		</div>
+	</div>
+
+	
+</div>
+      </section>  
+	   
+	   
+	
+	   
+	<!-- BEGIN PAGE 5 -->  		   
+  
+	<section class="page5 contact" id="contact">
+	<div class="page_container">
+		  <div class="top-image anim2">
+            <img alt="Contacts" src="data/contact.jpg">
+          </div>
+          <h1>تماس با ما</h1>
+          <h2>هر سوالی دارید بپرسید. ما برای مشاوره رایگان در خدمت شما هستیم.</h2>
+		  <hr class="half-rule">
+		  <div class="row">
+			<div class="col2">
+			<h4>آدرس ما</h4>
+			<p>یزد-میدان باهنر</p>
+			<p>بلوار صدوقی</p>
+			<p>کد پستی 8916977598</p>
+
+			<h4>تماس با ما</h4>
+			
+			<p><a href="#">donyayepooya@gmail.com</a></p>					
+			<p><a href="#">info@donyayepooya.ir</a></p>																
+			</div>		
+			<div class="col1 ">
+				<form name="htmlform" method="post" class="peThemeContactForm">
+					<div class="control-group">
+						<label>نام<span class="required">*</span></label>
+						<input type="text" name="author" class="required" placeholder="نام شما" required="" data-fieldid="0">
+					</div>
+					<div class="control-group">
+						<label>ایمیل<span class="required">*</span></label>
+						<input type="email" name="email" class="required" placeholder="ایمیل شما" data-validation="email" required="" data-fieldid="1">
+					</div>
+					<div class="control-group">
+						<label>پیام<span class="required">*</span></label>
+						<textarea name="message" cols="1" rows="5" class="required" placeholder="پیام شما" required="" data-fieldid="2"></textarea>
+					</div>
+					<button name="send" type="submit" dir="ltr" lang="en" class="submit">ارسال</button>
+				</form>
+				
+				<!--alert success-->
+				<div id="contactFormSent" class="formSent alert alert-success fade in" style="display: none;">
+					<strong>یوهو!</strong> پیام فرستاده شد.				</div>
+			
+				<!--alert error-->
+				<div id="contactFormError" class="formError alert alert-error fade in" style="display: none;">
+					<strong>خطا!</strong> فیلدهای علامت گذاری شده را ببینید.				</div>
+			</div>
+		</div>
+
+  	</div>
+	</section>  
+
+    </div>
+   
+  </div>
+  
+</body>
+</html>

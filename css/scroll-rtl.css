@@ -1,0 +1,28 @@
+.onepage-pagination {
+	left: 40px;
+	right: auto;
+}
+
+.onepage-pagination li a:before {
+	right: 8px;
+	left: auto;
+}
+
+.onepage-pagination li a.active:before {
+	right: 8px;
+	left: auto;
+}
+
+.viewing-page-2 .onepage-pagination li a:before,
+.viewing-page-5 .onepage-pagination li a:before {
+	right: 8px;
+	left: auto;
+}
+
+.viewing-page-2 .onepage-pagination li a.active:before,
+.viewing-page-5 .onepage-pagination li a.active:before {
+	right: 8px;
+	left: auto;
+}
+
+
